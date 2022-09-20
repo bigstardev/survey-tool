@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Installing tailwindCSS, flowbite for using pre-built tainwindCSS UI elements
+Install tailwindCSS, flowbite for using pre-built tainwindCSS UI elements
 
 ### `npm start`
 
