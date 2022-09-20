@@ -1,7 +1,7 @@
 import { ToolTip } from "../../shared";
 export default function ToolBar({ addNewQuestion }) {
   return (
-    <div className="flex flex-row sticky top-0 bg-white opacity-70 sm:bg-transparent sm:flex-col gap-2 p-3">
+    <div className="flex flex-row sticky top-0 bg-white opacity-70 sm:opacity-100  sm:bg-transparent sm:flex-col gap-2 p-3">
       <ToolTip placement={"right"} content="Text">
         <div
           onClick={() => addNewQuestion("text")}
