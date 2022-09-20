@@ -1,4 +1,4 @@
-# Suervery Question Creator with TailwindCSS
+# Survey Question Creator with TailwindCSS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
