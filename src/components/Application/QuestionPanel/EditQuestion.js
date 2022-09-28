@@ -54,7 +54,7 @@ export default function EditQuestion(props) {
         <div
           onClick={(e) => {
             e.stopPropagation();
-            removeQuestion(data.index);
+            removeQuestion(data);
           }}
         >
           <svg

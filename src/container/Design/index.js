@@ -20,10 +20,10 @@ export default function Design({ questions, setQuestions }) {
     setActiveQuestion({ ...newQuestion });
   };
 
-  const removeQuestion = (index) => {
-    const newQuestions = [...questions];
-    newQuestions.splice(index, 1);
-    setQuestions(newQuestions);
+  const removeQuestion = (data) => {
+    const deletedQuestionIndex = questions.indexOf(data);
+    questions.splice(deletedQuestionIndex, 1);
+    setQuestions([...questions]);
     setActiveQuestion(null);
   };
 
